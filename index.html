@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b101c">
+  <meta name="description" content="MY SPORT — твій особистий щоденник силових тренувань, рекордів і прогресу.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="MY SPORT">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+  <title>MY SPORT — Щоденник тренувань</title>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Основна навігація">
+      <div class="brand"><div class="brand-mark">M<span>+</span></div><div><b>MY SPORT</b><small>TRAINING OS</small></div></div>
+      <nav id="side-nav"></nav>
+      <div class="sidebar-foot"><span class="status-dot"></span> Локальний щоденник<br><span class="side-sub">Дані залишаються на пристрої</span></div>
+    </aside>
+    <div class="main-column">
+      <header class="topbar"><div class="top-brand"><span class="brand-mark small">M<span>+</span></span><b>MY SPORT</b></div><div class="topbar-right"><span id="top-date"></span><span class="status-pill"><i></i> OFFLINE READY</span></div></header>
+      <main id="view" tabindex="-1"></main>
+    </div>
+    <nav id="bottom-nav" class="bottom-nav" aria-label="Навігація на телефоні"></nav>
+  </div>
+  <div id="modal-root"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js" defer></script>
+</body>
+</html>

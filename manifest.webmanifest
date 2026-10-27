@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "MY SPORT — тренувальний щоденник",
+  "short_name": "MY SPORT",
+  "description": "Щоденник силових тренувань і персональних рекордів",
+  "lang": "uk",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b101c",
+  "theme_color": "#0b101c",
+  "icons": [
+    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
